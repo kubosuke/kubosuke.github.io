@@ -2573,6 +2573,7 @@ a.box:active {
 
 .subtitle+.title {
   margin-top: -20px;
+  text-align: right;
 }
 
 .subtitle.is-1 {
@@ -2603,6 +2604,7 @@ a.box:active {
 .subtitle.is-6,
 .subtitle.is-6 code {
   font-size: 14px;
+  text-align: right;
 }
 
 .subtitle.tags,
@@ -6471,7 +6473,8 @@ article+article {
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   column-count: 2;
-  width: 50vw;
+  width: 100%;
+  text-align: right;
 }
 
 .media-content .subtitle+.title {
